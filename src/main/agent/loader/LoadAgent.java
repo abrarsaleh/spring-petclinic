@@ -6,14 +6,9 @@ import java.util.Optional;
 import java.util.ServiceConfigurationError;
 import java.util.stream.Stream;
 
-import com.sun.tools.attach.AttachNotSupportedException;
-import com.sun.tools.attach.VirtualMachine;
-import com.sun.tools.attach.VirtualMachineDescriptor;
-import com.sun.tools.attach.spi.AttachProvider;
-
 @SuppressWarnings("restriction")
 public class LoadAgent {
-
+/*
 	@SuppressWarnings("restriction")
 	public static void run(String[] args) {
 		System.out.println("Running agent");
@@ -44,7 +39,7 @@ public class LoadAgent {
 		            } catch (Exception e) {
 		                throw new RuntimeException(e);
 		            }
-		            */
+		            
 		 String goalId = "EMPTY";        
 	      Object[] goalvm = null;
 		try {
@@ -86,7 +81,7 @@ public class LoadAgent {
 	        
 	        
 	       
-		        }
+		        }*/
 
 	}
 
