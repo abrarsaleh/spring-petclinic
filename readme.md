@@ -1,5 +1,7 @@
 # Unfinished, Currently Bugged APM Agent for PetClinic
 
+An attempt at instrumenting the Spring Boot PetClinic web app to practice basic usage of API's that interact with low-level Java.
+
 This doesn't actually work, as far as I can tell. I don't entirely know what's wrong with the dependencies but  java.lang.ClassNotFoundException: org.springframework.validation.Validator
 gets thrown. Not sure of the origin, will continue to work on it over the coming months.
 
